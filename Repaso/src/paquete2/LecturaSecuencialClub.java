@@ -12,14 +12,15 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 
 import java.util.ArrayList;
-import paquete1.Club;
-
+import paquete1.Club; 
+import paquete1.Jugador;
 public class LecturaSecuencialClub {
 
     private ObjectInputStream entrada;
     private ArrayList<Club> clubs;
     private String nombreArchivo;
-    private Club registroBuscado; // es el registro que debo buscar
+    private Club registroBuscado;
+    // es el registro que debo buscar
                                   // por defecto es null
 
     public LecturaSecuencialClub(String n) {
